@@ -77,19 +77,9 @@ package ar.edu.ies6.informatica.punto05.model;
 	        return calcularEdad() >= 18;
 	    }
 
-	    // Método para mostrar los datos
-	    public void mostrarDatos() {
-	        System.out.println("DNI: " + dni);
-	        System.out.println("Nombre: " + nombre);
-	        System.out.println("Fecha de Nacimiento: " + fechaNacimiento);
-	        System.out.println("Provincia: " + provincia);
-	        System.out.println("Edad: " + calcularEdad());
-	        if (esMayorDeEdad()) {
-	            System.out.println("La persona es mayor de edad");
-	        } else {
-	            System.out.println("La persona no es mayor de edad");
-	        }
-	    }
+	  
+	  
+	    
 	
 
 	}
