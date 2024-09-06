@@ -11,8 +11,7 @@ public class Main {
         
         // Solicitar al usuario que ingrese un número entero entre [1,9]
         System.out.print("Ingrese un número entero entre 1 y 9: ");
-        int numero = scanner.nextInt(); // Leer el número ingresado por el usuario
-        
+        int numero = scanner.nextInt(); 
         // Verificar que el número esté dentro del rango válido
         if (numero < 1 || numero > 9) {
             System.out.println("Número fuera de rango. Debe estar entre 1 y 9.");
